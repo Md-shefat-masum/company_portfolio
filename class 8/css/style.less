@@ -1,0 +1,184 @@
+/* header part start */
+#header {
+    background-color: var(--brand1);
+}
+
+#header .left_p {
+    color: var(--white);
+    line-height: 40px;
+}
+
+#header .right_links {
+    /* border: 1px solid red; */
+    display: inline-flex;
+}
+
+#header .right_links li a {
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--white);
+    padding: 9px;
+}
+
+#header .right_links li a:hover {
+    color: var(--black);
+}
+
+/* header part end */
+
+/* nav part start */
+#nav {
+    padding: 10px 0px;
+}
+
+#nav .logo {
+    height: 40px;
+}
+
+#nav .nav_links {
+    display: inline-flex;
+}
+
+#nav .nav_links a:hover {
+    color: var(--brand1);
+}
+
+#nav .nav_links a {
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--black);
+    font-family: 'myrid-pro-regular';
+    padding: 10px 6px;
+    /* border: 1px solid red; */
+}
+
+/* nav part end */
+
+/* banner part start*/
+#banner {
+    /* border: var(--border); */
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#banner .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 80px 0px;
+}
+
+#banner .banner_content {
+    text-align: right;
+}
+
+#banner .banner_content h2 {
+    color: var(--white);
+    font-size: 30px;
+    font-family: "oswald-regular";
+    margin-bottom: 13px;
+    text-transform: uppercase;
+}
+
+#banner .banner_content h1 {
+    color: var(--white);
+    font-size: 40px;
+    font-family: "oswald-bold";
+    margin-bottom: 19px;
+    text-transform: uppercase;
+}
+
+#banner .banner_content p {
+    color: var(--white);
+    margin-bottom: 28px;
+}
+
+#banner .banner_content .btns {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+#banner .banner_content .btns a {
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "oswald-regular";
+    padding: 10px 20px;
+    border: 1px solid var(--white);
+    margin-left: 20px;
+}
+
+#banner .banner_content .btns a:hover {
+    background-color: var(--brand1);
+    border: 1px solid var(--brand1);
+}
+
+/* banner part end*/
+
+#logo_section {
+    padding: 20px 0px;
+
+    .logo_content {
+        display: flex;
+        align-items: center;
+
+        .left {
+            display: flex;
+            height: 100%;
+            align-items: center;
+
+            i {
+                color: #172e5e;
+                font-size: 33px;
+            }
+        }
+
+        .right {
+            padding-left: 20px;
+
+            h5 {
+                font-weight: 600;
+                font-size: 15px;
+                margin-bottom: 2px;
+                font-family: 'opens-sans-regular';
+            }
+
+            p {
+                font-size: 14px;
+                font-family: 'opens-sans-regular';
+            }
+        }
+    }
+}
+
+.navs {
+    li {
+        a {
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-right: 0px;
+            padding: 18px 20px !important;
+            text-align: center;
+            font-size: 14px;
+            font-family: 'myrid-pro-regular';
+
+        }
+    }
+}
+
+.other {
+    a {
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-right: 0px;
+        padding: 18px 20px !important;
+        text-align: center;
+        font-size: 14px;
+        font-family: 'myrid-pro-regular';
+    }
+}
+
+.active {
+    background: #192546;
+    color: #fff;
+    box-shadow: 0px 12px 20px rgb(0 0 0 / 10%);
+}
