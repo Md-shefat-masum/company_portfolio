@@ -9,9 +9,7 @@ $(document).ready(function () {
         animateIn: 'fadeIn',
         navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
     });
-});
 
-$(document).ready(function () {
     $(".banner_bottom_content_slide").owlCarousel({
         loop:true,
         margin:0,
@@ -21,4 +19,9 @@ $(document).ready(function () {
         autoplay: false,
        
     });
+
+    let banner_height = $('.banner_bottom_content_slide .owl-stage').height();
+    $('.banner_bottom_content_slide .owl-stage .banner_bottom_content_slide_item').height(banner_height);
+    console.log(banner_height);
+
 });

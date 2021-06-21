@@ -161,14 +161,6 @@ ul {
   font-size: 15px;
   margin-top: 14px;
 }
-#banner_bottom .owl-stage {
-  transform: translate3d(-820px, 0px, 0px);
-  transition: all 1s ease 0s;
-  width: 1640px;
-}
-#banner_bottom .owl-item {
-  width: 205px;
-}
 #banner_bottom .banner_bottom_content_slide_item1 {
   background: #212F3C;
 }
@@ -182,8 +174,10 @@ ul {
   background: #273746;
 }
 #banner_bottom .banner_bottom_content_slide_item {
-  padding: 29px 36px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 #banner_bottom .banner_bottom_content_slide_item span {
   color: #fff;
