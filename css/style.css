@@ -174,6 +174,7 @@ ul {
   background: #273746;
 }
 #banner_bottom .banner_bottom_content_slide_item {
+  padding: 20px 36px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -187,4 +188,149 @@ ul {
   font-size: 20px;
   font-weight: 700;
   color: #fff;
+}
+#about_home {
+  padding: 50px 0px 70px 0px;
+  background: #fff;
+}
+#about_home .about_home_content h1 {
+  font-size: 31px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+#about_home .about_home_content p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+#about_home .about_home_content a {
+  margin-top: 20px;
+  background: #172e5e;
+  color: #fff;
+  text-decoration: none;
+  padding: 9px 29px;
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 15px;
+}
+#about_home .about_home_image .img_responsive {
+  height: 100%;
+  width: 100%;
+}
+#course_part {
+  padding: 60px 0px 50px 0px;
+  background: #f7f7f7;
+}
+#course_part .course_title {
+  text-align: center;
+}
+#course_part .course_title h3 {
+  font-weight: 700;
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+#course_part .course_title p {
+  font-size: 14px;
+  margin: 0 auto;
+  width: 56%;
+}
+#course_part .course_container {
+  margin-top: 50px;
+  text-align: center;
+}
+#course_part .course_container .course_main {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0px 0px 20px #ccc;
+}
+#course_part .course_container .course_main img {
+  border-radius: 6px 6px 0px 0px;
+  border-bottom: 2px solid #f7f7f7;
+}
+#course_part .course_container .course_main h4 {
+  font-size: 17px;
+  font-weight: 700;
+  border-bottom: 2px solid #f7f7f7;
+  color: #233665;
+  padding: 10px 0px;
+}
+#course_part .course_container .course_main p {
+  color: #333;
+  font-size: 14px;
+  padding: 7px 14px;
+}
+#course_part .course_container .course_info_part {
+  border-bottom: 2px solid #0D2352;
+  border-top: 2px solid #f7f7f7;
+  float: left;
+  width: 100%;
+  background: #fff;
+}
+#course_part .course_container .course_info_part ul li {
+  float: left;
+  border-right: 2px solid #f7f7f7;
+  width: 33%;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: #000;
+  padding: 5px 0px;
+  list-style: none;
+}
+#course_part .course_container .course_info_part ul li span {
+  font-weight: bold;
+  color: #192546;
+}
+#course_part .course_container .course_button_part {
+  background: #0D2352;
+  border-radius: 0 0 6px 6px;
+}
+#course_part .course_container .course_button_part a {
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 0px;
+  width: 100%;
+  display: block;
+  text-transform: uppercase;
+}
+#course_part .course_container .btn_part_space {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+#course_part .course_container .text_center {
+  text-align: center;
+}
+#course_part .course_container .text_center a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  display: inline-block;
+  color: #fff;
+  background: #192546;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 40px;
+  border-radius: 5px;
+}
+#why_choose_us {
+  padding: 60px 0px 40px;
+  background: #fff;
+}
+#why_choose_us .why_choose_title {
+  text-align: center;
+}
+#why_choose_us .why_choose_title h4 {
+  color: #07294d;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+#why_choose_us .why_choose_title p {
+  font-size: 16px;
+  color: #333;
 }

@@ -24,4 +24,15 @@ $(document).ready(function () {
     $('.banner_bottom_content_slide .owl-stage .banner_bottom_content_slide_item').height(banner_height);
     console.log(banner_height);
 
+    $(".course_slide").owlCarousel({
+        loop:true,
+        margin:20,
+        nav:false,
+        dots: false,
+        items: 3,
+        autoplay: true,
+       
+    });
+   
+
 });
