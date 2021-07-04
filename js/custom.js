@@ -35,4 +35,55 @@ $(document).ready(function () {
     let course_height = $('.course_slide .owl-stage').height();
     $('.course_slide .owl-stage .course_main').height(course_height);
 
+    $(".gallery_slide").owlCarousel({
+        loop: true,
+        nav: false,
+        dots: false,
+        items: 3,
+        autoplay: true,
+
+    });
+
+    
+    $(".team_slide").owlCarousel({
+        loop: true,
+        nav: true,
+        margin: 30,
+        dots: true,
+        items: 2,
+        autoplay: true,
+
+    });
+    $(".testimonial_slide").owlCarousel({
+        loop: true,
+        nav: true,
+        margin: 30,
+        dots: true,
+        items: 1,
+        autoplay: true,
+        navText: ['<i class="fas fa-arrow-left"></i>', '<i class="fas fa-arrow-right"></i>'],
+
+    });
+    $(".event_slide").owlCarousel({
+        loop: true,
+        nav: true,
+        margin: 30,
+        dots: true,
+        items: 2,
+        autoplay: true,
+        navText: ['<i class="fas fa-arrow-left"></i>', '<i class="fas fa-arrow-right"></i>'],
+
+    });
+
+    $(".partner_slide").owlCarousel({
+        loop: true,
+        nav: true,
+        margin: 30,
+        dots: true,
+        items: 5,
+        autoplay: true,
+
+    });
+
+
 });
