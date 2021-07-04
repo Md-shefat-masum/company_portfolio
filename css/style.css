@@ -1165,6 +1165,9 @@ body {
   width: 100%;
   color: #fff;
 }
+#gallery_page_content .portfolio_btn ul li {
+  transition: all linear 0.3s;
+}
 #gallery_page_content .portfolio_btn ul li::after {
   position: absolute;
   height: 100%;
@@ -1173,7 +1176,16 @@ body {
   left: 0;
   background: #172e5e;
   z-index: -1;
-  transition: 0.4s;
+  transition: all linear 0.3s;
+  width: 0%;
+}
+#gallery_page_content .portfolio_btn ul li:hover {
+  color: white;
+  transition: all linear 0.3s;
+}
+#gallery_page_content .portfolio_btn ul li:hover::after {
+  background: #172e5e;
+  width: 100%;
 }
 #gallery_page_content .gallery_item {
   position: relative;

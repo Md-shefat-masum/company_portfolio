@@ -1436,15 +1436,30 @@ body {
         color: #fff;
     }
 
-    .portfolio_btn ul li::after {
-        position: absolute;
-        height: 100%;
-        content: "";
-        top: 0;
-        left: 0;
-        background: #172e5e;
-        z-index: -1;
-        transition: 0.4s;
+    .portfolio_btn ul li {
+        transition: all linear 0.3s;
+
+        &::after {
+            position: absolute;
+            height: 100%;
+            content: "";
+            top: 0;
+            left: 0;
+            background: #172e5e;
+            z-index: -1;
+            transition: all linear 0.3s;
+            width: 0%;
+        }
+
+        &:hover {
+            color: white;
+            transition: all linear 0.3s;
+
+            &::after {
+                background: #172e5e;
+                width: 100%;
+            }
+        }
     }
 
     .gallery_item {
